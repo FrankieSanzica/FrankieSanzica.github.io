@@ -1,0 +1,42 @@
+body {
+    background: url("http://fc07.deviantart.net/fs71/f/2012/083/7/f/blurry_lights_by_empegz-d4tu18a.jpg") no-repeat center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#fade {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+#zordon {
+    position: relative;
+    cursor: pointer;
+    height: 300px;
+    border: 2px solid white;
+    border-style:inset;
+    border-radius: 25px;
+}
+
+#button {
+    position: relative;
+    cursor: pointer;
+    height: 20px;
+    width: 27%;
+    width: calc(60px);
+    margin: 0;
+    padding: 1px 2px;
+    background-color: #2B3856;
+    opacity: 0.8;
+    border: 2px solid white;
+    border-style:inset;
+    border-radius: 10px;
+}
+
+#footer {
+    position: fixed; 
+    background: rgba(0, 0, 0, 0.7);
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+}
