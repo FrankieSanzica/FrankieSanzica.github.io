@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<title>index &middot; Frankie Sanzica&#39;s Blog</title>
+	<title>Meta: How I Made This Site &middot; Frankie Sanzica&#39;s Blog</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Frankie Sanzica">
@@ -16,9 +16,7 @@
 	<link rel="apple-touch-icon" href="https://frankiesanzica.com/blog/apple-touch-icon.png">
 	<link rel="shortcut icon" href="https://frankiesanzica.com/blog/favicon.ico" type="image/x-icon">
 
-	<!-- RSS -->
-		<link href="https://frankiesanzica.com/blog/tags/index/index.xml" rel="alternate" type="application/rss+xml" title="Frankie Sanzica&#39;s Blog" />
-		<link href="https://frankiesanzica.com/blog/tags/index/index.xml" rel="feed" type="application/rss+xml" title="Frankie Sanzica&#39;s Blog" />
+	
 
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/solid.min.css">
@@ -118,41 +116,78 @@
 
 
 	<div class="content">
-	<div class="posts">
-	
-	<div class="post-teaser">
+	<article>
 		<header>
-			<h1>
-			<a class="post-link" href="https://frankiesanzica.com/blog/post/">
-				Posts
-			</a>
-			</h1>
+			<h1 class="title">Meta: How I Made This Site</h1>
 			<p class="meta">
-	June 29, 2019 &middot; 0 minute read
+	June 29, 2019 &middot; 1 minute read
 
 	
 		&middot; Tags:
-			<a href="https://frankiesanzica.com/blogtags/index">index</a>
+			<a href="https://frankiesanzica.com/blogtags/how-to">how-to</a>
 			
 </p>
 
 		</header>
 
-		<div class="excerpt">
+		<section class="post-content">
 			
 
-			<br>
-			<a class="button" href="https://frankiesanzica.com/blog/post/">
-				Continue reading
-			</a>
-		</div>
-	</div>
-</div>
+<h2 id="registrar">Registrar</h2>
 
-	<div class="pagination">
-	
-</div>
+<ul>
+<li>Register <em>frankiesanzica.com</em> domain: <a href="https://domains.google.com">https://domains.google.com</a> ($12 /yr + <strong>FREE</strong> WHOIS privacy)</li>
+</ul>
 
+<h2 id="cdn">CDN</h2>
+
+<ul>
+<li>Point DNS to CloudFlare nameservers: <a href="https://cloudflare.com">https://cloudflare.com</a> (Free CDN)</li>
+</ul>
+
+<h2 id="email">Email</h2>
+
+<ul>
+<li>Add Zoho MX/TXT records to CloudFlare: <a href="https://www.zoho.com/mail/">https://www.zoho.com/mail/</a> (Free Email)</li>
+</ul>
+
+<h2 id="hosting-github">Hosting (GitHub)</h2>
+
+<ul>
+<li>Setup <em>frankiesanzica.github.io</em> repo using GitHub Pages: <a href="https://pages.github.com/">https://pages.github.com/</a> (Free static hositing)</li>
+<li>Add CNAME to GitHub for custom domain: <a href="https://github.com/FrankieSanzica/frankiesanzica.github.io/blob/master/CNAME">https://github.com/FrankieSanzica/frankiesanzica.github.io/blob/master/CNAME</a></li>
+</ul>
+
+
+			
+				<hr>
+				<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "27VcUgVw411" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+			
+
+			<hr>
+			
+
+		</section>
+	</article>
 	</div>
 
 	<footer class="site-footer">
