@@ -32,10 +32,10 @@ body {
 body {
 
   /*
-url("img/background.jpg") no-repeat center center fixed;
+background: url("img/background.jpg") no-repeat center center fixed;
   */
 
-  background: color: a8e6cf;
+  background-color: #a8e6cf;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
