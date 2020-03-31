@@ -31,7 +31,11 @@ body {
 
 body {
 
-  background: url("img/background.jpg") no-repeat center center fixed;
+  /*
+url("img/background.jpg") no-repeat center center fixed;
+  */
+
+  background: color: a8e6cf;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
