@@ -31,7 +31,7 @@ body {
 
 body {
 
-background-color: #a8e6cf;
+background-color: #a8d3da;
 color: white;
 
  /* 
@@ -120,5 +120,9 @@ background: url("img/background.jpg") no-repeat center center fixed;
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+.footer {
+  color: white;
 }
 
